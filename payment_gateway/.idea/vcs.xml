@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/codeigniter_paypal" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codeigniter_paypal/application/libraries/PayPal-PHP-SDK/paypal/rest-api-sdk-php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codeigniter_paypal/application/libraries/PayPal-PHP-SDK_new" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codeigniter_paypal/application/libraries/rest-api-sdk-php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/codeigniter_paypal/application/third_party/PayPal-PHP-SDK/paypal/rest-api-sdk-php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paypal-api/PayPal-PHP-SDK" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/paypal_payment_flow/adaptivepayments-sdk-php" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-examples" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/php-skrill-quick-checkout" vcs="Git" />
+  </component>
+</project>

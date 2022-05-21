@@ -1,0 +1,37 @@
+{
+    "name": "zhooravell/skrill-php-client",
+    "description": "Skrill api wrapper.",
+    "license": "MIT",
+    "type": "library",
+    "require": {
+        "php": ">=7.2",
+        "ext-mbstring": "*",
+        "ext-json": "*",
+        "ext-SimpleXML": "*",
+        "ext-filter": "*",
+        "guzzlehttp/guzzle": "6.*",
+        "moneyphp/money": "^3.2"
+    },
+    "require-dev": {
+        "infection/infection": "^0.15.3",
+        "squizlabs/php_codesniffer": "^3.5",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "files": [
+            "src/helpers.php"
+        ],
+        "psr-4": {
+            "Skrill\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Skrill\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true,
+        "optimize-autoloader": true
+    }
+}
